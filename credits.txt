@@ -1,0 +1,2 @@
+This sourcemod uses assets from Portal: Cooperative. Without their assets, this project would've never, EVER worked.
+Again, huge shoutout to Wonderland_War for making Portal: Cooperative. They also made the portal textures + some models!
