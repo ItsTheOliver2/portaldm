@@ -1,0 +1,8 @@
+//"LightmappedGeneric"
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/mapsets/2player_rexaura"
+	"$vertexalpha" 1
+	"$gammaColorRead" "1"
+	"$linearWrite" "1"
+}
