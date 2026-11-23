@@ -15,6 +15,8 @@
 	// Um, no? This is a PORTAL, NON-VR mod, not HL2.
 	supportsvr	0
 
+	DependsOnAppID 400
+
 
 	FileSystem
 	{
@@ -58,9 +60,9 @@
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist. This also will mount Portal 1 above everything.
 			// Portal 1 mount.
-						game_lv				portal/portal_lv.vpk
-			game+mod			portal/portal_sound_vo_english.vpk
-			game+mod			portal/portal_pak.vpk
+						game_lv				|appid_400|portal/portal_lv.vpk
+			game+mod			|appid_400|portal/portal_sound_vo_english.vpk
+			game+mod			|appid_400|portal/portal_pak.vpk
 			// Half-Life 2 Deathmatch mount, since this uses a LOT of stuff from there.
 			game+mod			|all_source_engine_paths|hl2mp/hl2mp_english.vpk
 			game+mod			|all_source_engine_paths|hl2mp/hl2mp_pak.vpk
